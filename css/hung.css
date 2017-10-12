@@ -1,0 +1,99 @@
+#displayForm {
+    text-align: center;
+    border: 1px solid #2BC1F2;
+    width: 79%;
+    padding: 5px 60px 15px 40px;
+    margin: 40px auto;
+    box-shadow: 0 0 15px;
+    border-radius: 6px;
+}
+
+label {
+    float: left;
+    font-size: 15px;
+    margin-top: 3px;
+}
+
+input[type="text"] {
+    width: 100%;
+    margin-top: 8px;
+    height: 8px;
+    padding: 10px;
+    border: 1px solid #2BC1F2;
+}
+
+input[type="email"] {
+    width: 100%;
+    margin-top: 8px;
+    height: 8px;
+    padding: 10px;
+    border: 1px solid #2BC1F2;
+}
+
+input[type="number"] {
+    width: 100%;
+    margin-top: 8px;
+    height: 8px;
+    padding: 10px;
+    border: 1px solid #2BC1F2;
+}
+
+input[type="button"] {
+    float: right;
+}
+
+#listStudent {
+    text-align: center;
+    border: 1px solid #2BC1F2;
+    width: 79%;
+    padding: 10px 60px 70px 60px;
+    margin: 0px auto;
+    box-shadow: 0 0 15px;
+    border-radius: 6px;
+}
+
+
+#tableDisplay {
+    text-align: center;
+    border: 1px solid #2BC1F2;
+    width: 79%;
+    padding: 10px 60px 70px 60px;
+    margin: 39px auto;
+    box-shadow: 0 0 15px;
+    border-radius: 6px;
+}
+
+#tableStudent {
+    text-align: center;
+    border: 1px solid #2BC1F2;
+    width: 79%;
+    padding: 10px 60px 70px 60px;
+    margin: 39px auto;
+    box-shadow: 0 0 15px;
+    border-radius: 6px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th{
+    border: 1px solid #2BC1F2;
+    text-align: center;
+    padding: 8px; 
+}
+
+td{
+    border: 1px solid #2BC1F2;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+input[type="checkbox"] {
+    text-align: center;
+}
